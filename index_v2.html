@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link href="css/estilos_v2.css" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/a7b929be8c.js" crossorigin="anonymous"></script>
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+     <link rel="shortcut icon" href="media/logos/Beccar_Logo-Transparente.png">
+
+
+	<title>BECCAR</title>
+</head>
+
+
+<body>
+       <header>
+                <!--
+                <div class="header__superior">
+                       <div class="">
+                              
+                       </div>
+                       <div class="titulo__principal">
+                             <h2>Bienvenidos a Beccar</h2>
+                       </div>
+                       <div class="search">
+                             <input type="search" placeholder="Buscar">
+                       </div>
+                </div>
+               -->
+
+                <div class="container__menu">
+                      <div class="menu">
+
+                         <input type="checkbox" id="check__menu">
+                         <label id="label__check" for="check__menu">
+                                 <i class="fa-sharp fa-solid fa-bars icon__menu"></i>
+                         </label>
+
+                             <nav>
+                                   <ul>
+                                        <li>
+                                             <a href="#" id="selected"><img src="media/logos/Beccar_Logo-Mix-Transparente.png"></a>
+                                        </li>
+                                        <li>
+                                             <a href="#">Nosotros</a>
+                                             <ul>
+                                                <li class="">
+                                                     <a href="historia.html">Historia</a>
+                                                </li>
+                                                <li class="">
+                                                     <a href="#">Misión y Visión</a>
+                                                </li>
+                                                <li class="">
+                                                     <a href="#">Pricipios</a>
+                                                </li>
+                                                <li class="">
+                                                     <a href="#">Innovación</a>
+                                                </li>
+                                                <li class="">
+                                                     <a href="#" class="">Conócenos</a>
+                                                </li>
+                                                <li class="">
+                                                     <a href="#" class="">Trabaja<br>con nosotros</a>
+                                                </li>
+                                             </ul>
+                                        </li>
+                                        <li>
+                                             <a href="#">Unidades</a>
+                                             <ul class="">
+                                                <li class="">
+                                                     <a href="#" class="">B340</a>
+                                                </li>
+                                                <li class="">
+                                                  <a href="#" class="">E-Urviabus</a>
+                                                </li>
+                                                <li class="">
+                                                     <a href="#" class="">Low Entry</a>
+                                                </li>
+                                                <li class="">
+                                                     <a href="#" class="">Urbi G2</a>
+                                                </li>
+                                                <li class="">
+                                                     <a href="#" class="">Urbus G4</a>
+                                                </li>
+                                                <li class="">
+                                                     <a href="#" class="">Urviabus MD</a>
+                                                </li>
+                                             </ul>
+                                        </li>
+                                        <li>
+                                             <a href="#">Servicios</a>
+                                             <ul class="">
+                                                <li class="">
+                                                     <a href="#" class="">Post-ventas</a>
+                                                </li>
+                                                <li class="">
+                                                     <a href="#" class="">Garantias</a>
+                                                </li>
+                                             </ul>
+                                        </li>
+                                        <li>
+                                             <a href="#">Contacto</a>
+                                        </li>
+                                   </ul>
+                             </nav>
+                      </div>     
+                </div>
+
+       </header>
+
+       
+       <main class="main">
+               <section>
+                         <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+                              <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                              </div>
+                         
+                                   <div class="carousel-inner">
+                                        <div class="carousel-item active c-item ">
+                                             <img src="media/prueba.png" class="d-block w-100 c-img img-fluid" alt="Slide 1">
+                                        </div>
+                    
+                                        <div class="carousel-item c-item ">
+                                             <img src="media/LOW-ENTRY.png" class="d-block w-100 c-img img-fluid" alt="Slide 2">
+                                        </div>
+                    
+                                        <div class="carousel-item c-item">
+                                             <img src="media/prueba.png" class="d-block w-100 c-img img-fluid" alt="Slide 3">
+                                        </div>
+                                   </div>
+                    
+                                   <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+                                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                   <span class="visually-hidden">Previous</span>
+                                   </button>
+                                   <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+                                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                   <span class="visually-hidden">Next</span>
+                                   </button>
+                         </div>
+                         
+               </section>
+
+                        <div class="linea_gris">
+                    
+                        </div>
+
+                        <div class="container_img">
+                              <div class="menu_img">
+                                   <div class="row1-i">
+                                         <a href="#"><img src="media/UNIDADES_MENU/B340.png"></a>
+                                   </div>
+                                   <div class="row2-i">
+                                         <a href="#"><img src="media/UNIDADES_MENU/Sin título-3.png"></a>
+                                   </div>
+                                   <div class="row3-i">
+                                         <a href="#"><img src="media/UNIDADES_MENU/LOW_ENTRY.png"></a>
+                                   </div>
+                                   <div class="row4-i">
+                                         <a href="#"><img src="media/UNIDADES_MENU/URBI_G2.png"></a>
+                                   </div>
+                                   <div class="row5-i">
+                                         <a href="#"><img src="media/UNIDADES_MENU/g4.png"></a>
+                                   </div>
+                                   <div class="row6-i">
+                                         <a href="#"><img src="media/UNIDADES_MENU/URVIABUS_G3_MD.png"></a>
+                                   </div>                                     
+                              </div>
+                        </div>
+
+                        <div class="container_unidades">
+                              <div class="menu_unidades">
+                                   <div class="row1-u">
+                                         <a href="#">B340</a>
+                                   </div>
+                                   <div class="row2-u">
+                                         <a href="#" class="">E-URVIABUS</a>
+                                   </div>
+                                   <div class="row3-u">
+                                         <a href="#">LOW ENTRY</a>
+                                   </div>
+                                   <div class="row4-u">
+                                         <a href="#">URBI G2</a>
+                                   </div>
+                                   <div class="row5-u">
+                                        <a href="#">URBUS G4</a>
+                                   </div>
+                                   <div class="row6-u">
+                                        <a href="#">URVIABUS MD</a>
+                                   </div>        
+                              </div>
+                        </div>
+
+                        <div class="container_noticias">
+                              <div class="noticias">
+                                   <label>
+                                           ULTIMAS NOTICIAS
+                                   </label>
+                              </div>
+                        </div>
+              
+       </main>
+
+       <footer class="footer">
+                <div class="container-footer-all">
+                        <div class="container-body">
+                                <!--<img src="media/logos/Beccar_Logo-Mix-Transparente.png" height="45px" alt="">-->
+                                
+                                <div class="column-1">
+                                        <!--<h1>Beccar</h1>-->
+                                        <div class="row_f">
+                                              <img src="media/logos/Beccar_Logo-Mix-Transparente.png">
+                                        </div>
+
+                                        <div class="row_f">
+                                            <a href="">HISTORIA</a>
+                                        </div>
+
+                                        <div class="row_f">
+                                            <a href="">MISIÓN Y VISIÓN</a>
+                                        </div>
+
+                                        <div class="row_f">
+                                            <a href="">INNOVACION</a>
+                                        </div>
+
+                                        <div class="row_f">
+                                            <a href="">TRABAJA CON NOSOTROS</a>
+                                        </div>
+
+                                        <div class="row_f">
+                                            <a href="">CONOCENOS</a>
+                                        </div>
+                                </div>
+
+                                <div class="column-2">
+                                        <h1>Unidades</h1>
+
+                                        <div class="row_f">
+                                              <a href="">B340</a>
+                                        </div>
+
+                                        <div class="row_f">
+                                              <a href="">LOW ENTRY</a>
+                                        </div>
+
+                                        <div class="row_f">
+                                              <a href="">URBI G2</a>
+                                        </div>
+
+                                        <div class="row_f">
+                                              <a href="">URBUS G4</a>
+                                        </div>
+
+                                        <div class="row_f">
+                                              <a href="">URVIABUS MD</a>
+                                        </div>
+
+                                </div>
+
+                                <div class="column-3">
+                                        <h1>Contacto</h1>
+                                        
+                                        <div class="row_f">
+                                            <img src="media/iconos/empresa.png">
+                                            <label>
+                                                    BECCAR PLANTA
+                                                    CARRETERA LIBRE A ATOTONILCO
+                                                    KM 7 #100, PUEBLO VIEJO,
+                                                    ZAPOTLANEJO, JALISCO
+                                            </label>
+                                        </div>
+
+                                        <div class="row_f">
+                                            <img src="media/iconos/grupo.png">
+                                            <label>
+                                                    BECCAR OFICINAS
+                                                    MORELOS #574, COLONIA SANTA
+                                                    CECILIA, ZAPOTLANEJO, JALISCO
+                                            </label>
+                                        </div>
+
+                                        <div class="row_f">
+                                            <img src="media/iconos/telefono.png">
+                                            <label>
+                                                    TEL. (01) (373) 734 1311
+                                            </label>
+                                        </div>
+
+                                        <h1>Redes sociales</h1>
+
+                                        <div class="row_f">
+                                              <a href=""><img src="media/redes/facebook_icon.png"></a>
+                                              <label>Síguenos en Facebook</label>
+                                        </div>
+
+                                        <div class="row_f">
+                                              <a href=""><img src="media/redes/instagram_icon.png"></a>
+                                              <label>Síguenos en Instagram</label>
+                                        </div>
+                                </div>
+
+                                <div class="column-4">
+                                        <h1>Clientes</h1>
+                                </div>
+
+                                <div class="column-5">
+                                        <h1>Servicio Post-venta</h1>
+                                </div>
+
+                                <div class="column-6">
+                                        <h1>Política de privacidad</h1>
+                                        <img src="media/logos/logo_ESRMX.png">
+                                </div>
+                                
+                        </div>
+                </div>
+
+                <div class="container-footer">
+                      <div class="footer_b">
+                            <div class="copyright">
+                                © 2023 Todos los derechos reservados |<a href="">BECCAR</a>
+                            </div>
+
+                            <div class="information">
+                                    |<a href="">Política de privacidad</a>
+                            </div>
+                      </div>
+                </div>
+       </footer>
+
+</body>
+
+</html>
